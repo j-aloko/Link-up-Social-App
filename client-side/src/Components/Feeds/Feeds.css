@@ -1,0 +1,20 @@
+.feedsContainer {
+  flex: 5.5;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.feedsWrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.feedsSkeletonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedsSkeletonItems {
+  margin-top: 60px;
+}

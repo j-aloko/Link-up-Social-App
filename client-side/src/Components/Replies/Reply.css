@@ -1,0 +1,67 @@
+.displayReplyWrapper {
+  display: flex;
+  margin: 20px;
+}
+
+.usernameAndCommentWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.usersNameAndComment {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: rgb(238, 188, 219);
+  margin-right: 15px;
+  max-width: 420px;
+  border-radius: 10px;
+}
+
+.usernameAndTimestamp {
+  display: flex;
+  align-items: center;
+}
+
+.LinkeAndReply {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.reply {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(231, 125, 191);
+}
+
+.numOfReplies {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(231, 125, 191);
+}
+.replyForm {
+  display: flex;
+  flex-direction: column;
+}
+.replyInput {
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  border: 0.5px solid gray;
+}
+.replyInput:focus {
+  outline: none;
+}
+.postReply {
+  background-color: rgb(165, 98, 139);
+  color: whitesmoke;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 5px;
+  width: 50px;
+  border-radius: 10px;
+  margin-top: 5px;
+  text-align: center;
+  cursor: pointer;
+}

@@ -1,0 +1,125 @@
+.bodyContainer {
+  flex: 9;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.ResultsWrapper {
+  margin-top: 18px;
+  margin-left: 13px;
+}
+
+.bodyWrapper {
+  padding: 10px;
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileCover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.coverImage {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.profileAvatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -130px;
+}
+
+.avatarImage {
+  width: 180px;
+  height: 180px;
+  border: 2px solid white;
+  border-radius: 50%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.feedAndInfoWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.leftWrapper {
+  flex: 5.5;
+  width: 100%;
+  margin: 10px;
+}
+
+.rightWrapper {
+  flex: 3.5;
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.followButton {
+  margin-top: 40px;
+  padding: 5px 10px;
+  text-align: center;
+  border: none;
+  width: 50%;
+  border-radius: 5px;
+  background-color: rgb(165, 98, 139);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.userInformationTitle {
+  margin-top: 15px;
+}
+
+.userInformation {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+.infolistItem {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.userFriends {
+  display: flex;
+  flex-direction: column;
+}
+
+.userFriendsImages {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.imgsAndNames {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.friendImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 5px 5px;
+}

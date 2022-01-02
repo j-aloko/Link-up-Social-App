@@ -1,0 +1,76 @@
+.rightContainer {
+  flex: 3;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+.rightWrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.birthdayWrapper {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.birthdayImage {
+  width: 60px;
+  height: 60px;
+}
+
+.birthdayWrapper > span {
+  margin-left: 20px;
+}
+
+.rightImage {
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.onlineFriends {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.online {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 0;
+}
+
+.onlineItems {
+  display: flex;
+  align-items: center;
+}
+
+.onlineImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.onlineItems > span {
+  margin-left: 15px;
+}
+
+.imageOnlineIndicator {
+  display: flex;
+  position: relative;
+}
+
+.onlineIndicator {
+  height: 13px;
+  width: 13px;
+  position: absolute;
+  top: 0px;
+  left: 25px;
+}

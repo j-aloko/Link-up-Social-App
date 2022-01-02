@@ -1,0 +1,169 @@
+.settings {
+  display: flex;
+  margin-top: 50px;
+}
+
+.settingsWrapper {
+  flex: 9;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.settingsTitleAndButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.updateTitle {
+  opacity: 0.5;
+}
+
+.bio {
+  width: 400px;
+  padding: 10px;
+  height: 70px;
+  border: none;
+  border: 0.2px solid gray;
+  border-radius: 10px;
+}
+
+.bio:focus {
+  outline: none;
+}
+
+.deleteAccount {
+  color: rgb(223, 92, 92);
+  padding: 10px 15px;
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.deleteAccount:disabled {
+  cursor: disabled;
+}
+
+.profilePictureWrapper {
+  display: flex;
+}
+
+.updateProfilePicture {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex: 0.5;
+}
+
+.updateCoverPhoto {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 100px;
+  flex: 0.5;
+}
+
+.profileTitle {
+  margin-right: 15px;
+}
+
+.updateImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.updateImage2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.updateIcon {
+  margin-left: 10px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(165, 98, 139);
+}
+
+.uploadPicIcon {
+  color: white;
+  margin-left: 3px;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.uploadProfilePic {
+  margin-left: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(41, 8, 102);
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.uploadProfilePic:disabled {
+  cursor: disabled;
+}
+
+.progressInfo {
+  margin-left: 15px;
+}
+
+.updateForm {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.inputItems {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.inputItems > label {
+  margin-top: 10px;
+}
+
+.inputItems > input {
+  padding: 15px;
+  margin-top: 10px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.selectField {
+  padding: 15px;
+  margin-top: 10px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.updateInfoButton {
+  margin-top: 20px;
+  padding: 10px 15px;
+  width: 100px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(22, 97, 50);
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.Sidebar {
+  flex: 3;
+  margin: 10px;
+}

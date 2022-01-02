@@ -1,0 +1,202 @@
+.navbarContainer {
+  background-color: rgb(165, 98, 139);
+  height: 70px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbarWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.navbarLogo {
+  margin-left: 15px;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  cursor: pointer;
+}
+
+.navbarSearchBar {
+  display: flex;
+  align-items: center;
+}
+
+.navbarSearchIcon {
+  margin-left: -25px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbarSearchInput {
+  width: 320px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbarSearchInput:focus {
+  outline: none;
+}
+
+.homepageAndTimeline {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.homepageAndTimelineListItems {
+  margin-left: 15px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbarIconsWrapper {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.navbarIcon {
+  margin-left: 15px;
+}
+
+.notification {
+  position: fixed;
+  top: -180px;
+  right: 100;
+  padding: 10px;
+  background-color: rgb(165, 98, 139);
+}
+
+.notification.show {
+  top: 70px;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+.markAsRead {
+  width: 60%;
+  margin-top: 10px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(14, 17, 138);
+  cursor: pointer;
+}
+.imgAndLogout {
+  display: flex;
+  align-items: center;
+}
+
+.navbarAvatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
+  object-fit: cover;
+  margin-right: 15px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.logout {
+  border: none;
+  padding: 5px 10px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(165, 98, 139);
+  cursor: pointer;
+}
+
+.searchResultsContainerr {
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+.notificationMessageAndImages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.username {
+  display: flex;
+  align-items: center;
+}
+
+.NotificationDescription {
+  margin-left: 10px;
+}
+
+.notificationImage {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  vertical-align: middle;
+}
+
+.notificationContainer {
+  background-color: rgb(165, 98, 139);
+  padding: 10px;
+  height: 300px;
+  width: 470px;
+  position: fixed;
+  top: 70px;
+  right: 150px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+}
+
+.notificationWrapper {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clearNotification {
+  margin-top: 20px;
+  width: 150px;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.noNotification {
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.notificationProfilePic {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 10px;
+}

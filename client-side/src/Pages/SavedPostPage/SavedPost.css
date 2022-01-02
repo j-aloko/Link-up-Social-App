@@ -1,0 +1,26 @@
+.savedPostContainer {
+  height: 100vh;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.savedPostsWrapper {
+  display: flex;
+}
+
+.savedPostsMain {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+}
+
+.savedPostsMainSkeleton {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+}
+.savedPostsSkeletonWrapper {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+}

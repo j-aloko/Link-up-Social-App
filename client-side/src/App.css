@@ -1,0 +1,12 @@
+.links {
+  text-decoration: none;
+  color: inherit;
+}
+
+.links:hover {
+  color: inherit;
+}
+
+.App {
+  scrollbar-width: thin;
+}

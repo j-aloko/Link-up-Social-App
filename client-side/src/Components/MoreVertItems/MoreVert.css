@@ -1,0 +1,35 @@
+.morevertContainer {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(165, 98, 139);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.morevertWrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-size: 20px;
+}
+
+.ItemWrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.ItemWrapper:hover {
+  display: block;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.itemNames {
+  margin-left: 30px;
+}

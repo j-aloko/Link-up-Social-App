@@ -1,0 +1,79 @@
+.actualSavedPostsContainer {
+  flex: 8;
+}
+
+.actualSavedPostsWrapper {
+  display: flex;
+  margin: 20px;
+}
+
+.savedPostImg {
+  height: 300px;
+  width: 500px;
+  object-fit: cover;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.savedPostInfo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.whatSaved {
+  margin-top: 15px;
+}
+
+.savedPostImageAndSource {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.sourceSavedFrom {
+  margin-left: 20px;
+}
+
+.UserPostImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.addToCollections {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.collections {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(173, 172, 172);
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.share {
+  margin-left: 20px;
+  -webkit-transform: scaleX(-1);
+  background-color: rgb(173, 172, 172);
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.moreVet {
+  margin-left: 20px;
+  background-color: rgb(173, 172, 172);
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  cursor: pointer;
+}

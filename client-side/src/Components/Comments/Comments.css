@@ -1,0 +1,51 @@
+.displayCommentsWrapper {
+  display: flex;
+  margin: 20px;
+}
+
+.userImageNameAndClose {
+  cursor: pointer;
+}
+
+.usernameAndCommentWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.usersNameAndComment {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background-color: rgb(238, 188, 219);
+  margin-right: 15px;
+  max-width: 420px;
+  border-radius: 10px;
+}
+
+.usernameAndTimestamp {
+  display: flex;
+  align-items: center;
+}
+
+.LinkeAndReplyWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.LikeAndReply {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.reply {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(231, 125, 191);
+}
+
+.numOfReplies {
+  font-size: 12px;
+  font-weight: 500;
+  color: rgb(231, 125, 191);
+}

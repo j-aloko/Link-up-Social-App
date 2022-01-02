@@ -1,0 +1,120 @@
+.registerContainer {
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  background-color: rgb(252, 249, 249);
+  overflow-x: hidden;
+}
+
+.registerWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 30px;
+}
+
+.registerlogoAndDescription {
+  flex: 5;
+  margin: 20px;
+}
+
+.registerloginTitleImoji {
+  display: flex;
+  align-items: center;
+}
+
+.registerImoji {
+  height: 200px;
+  margin-left: 25px;
+}
+
+.registerLogo {
+  font-size: 80px;
+  font-weight: 500;
+  color: rgb(165, 98, 139);
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.registerDescription {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.registerArea {
+  flex: 4;
+  padding: 20px;
+  background-color: rgb(216, 213, 213);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.registerItems > input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid rgb(99, 98, 98);
+  border-radius: 10px;
+}
+
+.registerItems > input:focus {
+  outline: none;
+}
+
+.error {
+  color: red;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.signupButton {
+  margin: 25px 0px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(165, 98, 139);
+  color: white;
+  cursor: pointer;
+}
+
+.alreadyHaveAnAccount {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.aleady {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(165, 98, 139);
+}
+.logintoAccount {
+  margin-top: 25px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(38, 21, 102);
+  color: white;
+  cursor: pointer;
+}
+
+.logintoAccount:disabled {
+  cursor: not-allowed;
+}

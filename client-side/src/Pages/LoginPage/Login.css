@@ -1,0 +1,145 @@
+.loginContainer {
+  height: 100vh;
+  width: 100vw;
+  padding: 20px;
+  background-color: rgb(252, 249, 249);
+  overflow-x: hidden;
+}
+
+.loginWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  margin: 30px;
+}
+
+.logoAndDescription {
+  flex: 5;
+  margin: 20px;
+}
+
+.loginTitleImoji {
+  display: flex;
+  align-items: center;
+}
+
+.loginImoji {
+  height: 200px;
+  margin-left: 25px;
+}
+
+.loginLogo {
+  font-size: 80px;
+  font-weight: 500;
+  color: rgb(165, 98, 139);
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.loginDescription {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.loginArea {
+  flex: 4;
+  padding: 20px;
+  background-color: rgb(216, 213, 213);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginItems > input {
+  width: 100%;
+  padding: 15px;
+  margin-top: 25px;
+  border: 1px solid rgb(99, 98, 98);
+  border-radius: 10px;
+}
+
+.loginItems > input:focus {
+  outline: none;
+}
+
+.loginButton {
+  margin: 25px 0px;
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(165, 98, 139);
+  color: white;
+  cursor: pointer;
+}
+
+.loginButton:disabled {
+  cursor: not-allowed;
+}
+
+.forgotPasswordAndCreate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.forgot {
+  font-size: 18px;
+  text-align: center;
+  color: rgb(165, 98, 139);
+}
+.createNewAccount {
+  margin-top: 25px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: rgb(38, 21, 102);
+  color: white;
+  cursor: pointer;
+}
+
+.createNewAccount:disabled {
+  cursor: not-allowed;
+}
+
+.errorMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actualErrorMessage {
+  font-weight: 500;
+  background-color: rgb(199, 43, 43);
+  padding: 10px;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+
+.successMessage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.actualSuccessMessage {
+  font-weight: 500;
+  background-color: rgb(40, 158, 36);
+  padding: 10px;
+  border-radius: 10px;
+  color: whitesmoke;
+}

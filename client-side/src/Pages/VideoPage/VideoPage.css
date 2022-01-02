@@ -1,0 +1,15 @@
+.videoContainer {
+  height: 100vh;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.videosWrapper {
+  display: flex;
+}
+
+.videoMain {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+}

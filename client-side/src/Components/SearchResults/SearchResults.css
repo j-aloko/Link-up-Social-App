@@ -1,0 +1,55 @@
+.searchResults {
+  width: 320px;
+  height: 200px;
+  -webkit-box-shadow: 0px 0px 28px -3px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 28px -3px rgba(0, 0, 0, 0.68);
+  z-index: 1000;
+  position: fixed;
+  top: 48px;
+  background-color: rgb(165, 98, 139);
+}
+
+.resultField {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.userImageNameAndClose {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.userImageAndName {
+  display: flex;
+  align-items: center;
+}
+
+.userImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.username {
+  margin-left: 10px;
+}
+
+.followButtonAndIcon {
+  display: flex;
+  align-items: center;
+}
+
+.followButton1 {
+  border: none;
+  margin-right: 10px;
+  width: 50%;
+  border-radius: 5px;
+  background-color: rgb(165, 98, 139);
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}

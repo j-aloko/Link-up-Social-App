@@ -1,0 +1,123 @@
+.leftContainer {
+  flex: 2.5;
+  width: 100%;
+  height: calc(100vh - 60px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  position: sticky;
+  top: 60px;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(241, 240, 240);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(177, 174, 174);
+}
+
+.leftWrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.leftbarItems {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.leftbarItems :hover {
+  display: block;
+  background-color: rgb(150, 148, 148);
+  display: flex;
+  align-items: center;
+}
+
+.leftbarNonFunctional {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.leftbarItem {
+  display: flex;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.leftbarItem > span {
+  margin-left: 15px;
+}
+
+.leftbarItemNF {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.nonFunctional > span {
+  margin-left: 15px;
+}
+
+.nonFunctional {
+  display: flex;
+}
+
+.NFButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.showMore {
+  margin: 15px 0px;
+  padding: 15px 10px;
+  width: 120px;
+  font-size: 12px;
+  font-weight: 600;
+  border: none;
+  background-color: rgba(204, 200, 200, 0.842);
+  cursor: pointer;
+}
+
+.leftHorizontalLine {
+  opacity: 0.4;
+}
+
+.leftProfiles {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.leftProfileLists {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.leftProfileImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.leftProfileLists > span {
+  margin-left: 15px;
+}

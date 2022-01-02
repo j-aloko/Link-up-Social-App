@@ -1,0 +1,25 @@
+.conversation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.conversationUserImageAndName {
+  display: flex;
+  align-items: center;
+}
+
+.conversationImg {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.usernamee {
+  margin-left: 20px;
+  font-size: 22px;
+}

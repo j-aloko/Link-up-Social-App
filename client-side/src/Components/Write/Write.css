@@ -1,0 +1,79 @@
+.whatsOnYourMind {
+  flex: 3;
+  height: 100%;
+  width: 100%;
+  border: 0.2px solid rgb(165, 98, 139);
+  -webkit-box-shadow: 0px 0px 28px -3px rgba(0, 0, 0, 0.68);
+  box-shadow: 0px 0px 28px -3px rgba(0, 0, 0, 0.68);
+}
+
+.showUploadImage {
+  height: 600px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.imgAndTextField {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.feedImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  vertical-align: middle;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.postSomething {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(192, 190, 190);
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.postSomething:focus {
+  outline: none;
+}
+
+.feedWidgetsAndShareButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+
+.feedWidgets {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.widgetItems {
+  margin-left: 15px;
+}
+
+.widgetItems > span {
+  margin-left: 5px;
+}
+
+.shareButton {
+  margin-right: 20px;
+  padding: 5px;
+  border: none;
+  color: white;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.shareButton:disabled {
+  cursor: not-allowed;
+}

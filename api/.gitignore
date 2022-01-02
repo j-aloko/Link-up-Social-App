@@ -1,0 +1,8 @@
+#Dependencies
+/node_modules
+.env
+
+
+#Images and videos
+/public
+
