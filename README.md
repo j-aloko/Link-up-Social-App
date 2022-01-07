@@ -1,5 +1,5 @@
 # LINK-UP-SOCIAL-APP
-Link up is  a social  app that enhances socialization ,Sharing of updates, photos, and engaging with friends,families and staying connected to communities.
+Link up is a social  app that enhances socialization ,Sharing of updates, photos, and engaging with friends,families and staying connected to communities.
 
 #FEATURES OF THIS APP
 
